@@ -17,7 +17,7 @@ const PORT = 4344;
 app.use(express.json());
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:3000",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true, 
     allowedHeaders: ['Content-Type', 'Authorization'], 
